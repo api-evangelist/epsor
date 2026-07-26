@@ -1,8 +1,20 @@
 aid: epsor
 name: Epsor
-description: 'Epsor is a company surfaced as a portfolio company of partech and added to the API Evangelist
-  network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Epsor is a French fintech, founded in 2017, that manages employee savings and
+  retirement plans (épargne salariale et retraite) for companies and helps them turn
+  that benefit into an HR lever. A certified B Corp and mission-driven company, Epsor
+  ranks among the top 10 employee-savings and retirement providers in France and serves
+  more than 2,500 corporate clients. It targets HR, Compensation & Benefits, and Finance
+  teams at mid-size and large French firms, combining a pedagogical, personalized saver
+  experience, an open-architecture fund range (40+ funds from 15+ asset managers, with a
+  strong ESG/SRI focus), and year-round support to run and promote the plan. Epsor is
+  neither an asset manager nor a bank: it is the single point of contact for companies
+  and their employees, and delegates account-keeping to Société Générale Securities
+  Services (SGSS). Products span PEE, PER Collectif (PERECO), PER Obligatoire,
+  intéressement, participation, abondement, and employee share ownership. Epsor exposes
+  no public developer API; this profile captures its public identity and security
+  posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/epsor/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +22,32 @@ x-backed-by:
 - partech
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://cdn.prod.website-files.com/61a09ead743800be40bdf911/67e52901bbc5b0b46a27a334_home_opengraph_1200.png
 tags:
 - Company
 - Financial Services
+- Fintech
+- Employee Savings
+- Retirement
+- Épargne Salariale
+- HR
+- Compensation and Benefits
+- ESG
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +55,26 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/epsor-domain-security.yml
+- type: LLMsTxt
+  url: llms/epsor-llms.txt
 - type: Website
   url: https://www.epsor.fr/
+- type: About
+  url: https://www.epsor.fr/a-propos
+- type: Blog
+  url: https://www.epsor.fr/blog
+- type: Support
+  url: https://epsor.stonly.com/kb/fr/comprendre-lepargne-salariale-et-retraite-24137
+- type: Login
+  url: https://www.epsor.fr/login
+- type: TermsOfService
+  url: https://www.epsor.fr/cgu---app
+- type: PrivacyPolicy
+  url: https://www.epsor.fr/politique-de-confidentialite
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
