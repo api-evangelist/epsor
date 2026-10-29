@@ -64,6 +64,83 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Epsor is a company surfaced as a portfolio company of partech and added to the API Evangelist network as a stub for enrichment. Sector: Financial Services. This profile is a lead awaiting the enrichment pipeline.
+Epsor is a French fintech, founded in 2017, that manages employee savings and retirement plans (épargne salariale et retraite) for companies and helps them turn that benefit into an HR lever. A certified B Corp and mission-driven company, Epsor ranks among the top 10 employee-savings and retirement providers in France and serves more than 2,500 corporate clients. It targets HR, Compensation & Benefits, and Finance teams at mid-size and large French firms, combining a pedagogical, personalized saver experience, an open-architecture fund range (40+ funds from 15+ asset managers, with a strong ESG/SRI focus), and year-round support to run and promote the plan. Epsor is neither an asset manager nor a bank: it is the single point of contact for companies and their employees, and delegates account-keeping to Société Générale Securities Services (SGSS). Products span PEE, PER Collectif (PERECO), PER Obligatoire, intéressement, participation, abondement, and employee share ownership. Epsor exposes no public developer API; this profile captures its public identity and security posture for the API Evangelist network.
 
-Backed by: partech — https://www.epsor.fr/
+**Areas:** Company · Financial Services · Fintech · Employee Savings · Retirement · Épargne Salariale · Human Resources · Compensation and Benefits · ESG · France
+
+## Epsor on APIs.io
+
+Everything profiled for Epsor is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/epsor/](https://apis.io/providers/epsor/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Epsor Domain Security](https://apis.io/security/epsor/epsor-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.epsor.fr/)
+- [Support](https://epsor.stonly.com/kb/fr/comprendre-lepargne-salariale-et-retraite-24137)
+- [Blog](https://www.epsor.fr/blog)
+- [Terms of service](https://www.epsor.fr/cgu---app)
+- [Privacy policy](https://www.epsor.fr/politique-de-confidentialite)
+
+## API Evangelist rating
+
+**Kin Score 10.8** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 27.6 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 13.7** — Employment & Payroll
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/epsor/](https://apis.io/providers/epsor/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Epsor: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/epsor/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
